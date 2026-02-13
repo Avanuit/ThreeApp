@@ -55,7 +55,7 @@ function setDiagonalMode() {
 function setZOnlyMode() {
   movementMode = MODE_Z_ONLY;
 
-  // solo eje Z
+  //solo eje Z
   direction.set(0, 0, Math.sign(direction.z) || 1);
 }
 function randomizeSpeed() {
